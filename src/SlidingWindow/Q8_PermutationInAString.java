@@ -42,5 +42,7 @@ public class Q8_PermutationInAString {
                 left++;
             }
         }
+
+        return false;
     }
 }
