@@ -23,7 +23,7 @@ public class Q5_FindAllDuplicateNumbers {
         }
 
         List<Integer> res = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
+        for (i = 0; i < nums.length; i++) {
             if (nums[i] != i + 1) {
                 res.add(nums[i]);
             }
